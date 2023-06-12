@@ -20,6 +20,7 @@ struct GroceryListButton: View {
     }
 }
 
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 #Preview {
     GroceryListButton(isActive: .constant(false))
 }

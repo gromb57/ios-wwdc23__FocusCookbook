@@ -24,9 +24,6 @@ struct RecipeGrid: View {
     @Environment(\.layoutDirection) private var layoutDirection
     @Environment(NavigationModel.self) private var navigationModel
 
-    @Environment(\.layoutDirection) private var layoutDirection
-    @Environment(NavigationModel.self) private var navigationModel
-
     /// The currently-selected recipe.
     private var selectedRecipe: Recipe? {
         dataModel[selection]

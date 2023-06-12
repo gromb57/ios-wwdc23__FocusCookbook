@@ -57,6 +57,7 @@ extension RecipeTile {
     static let selectionStrokeWidth: CGFloat = 4
 }
 
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 #Preview {
     RecipeTile(recipe: .mock, isSelected: true)
 }
